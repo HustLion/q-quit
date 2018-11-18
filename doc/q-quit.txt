@@ -1,0 +1,39 @@
+*q-quit.txt* q to smart quit.
+
+Author:  HustLion <hustlion-dev@outlook.com>
+License: The MIT License (MIT)
+
+This plugin is only available if 'compatible' is not set.
+
+INTRODUCTION                                    *q-quit*
+
+q-quit remapps the q key to a smart close utility, allowing
+the user to quickly close window, quickfix list, etc. The original
+functionality of q key, which is related to macro recording, is
+remapped to <leader>q.
+
+MAPS                                            *q-quit-maps*
+
+                                                *q-quit-q*
+q                       Smart close.
+
+                                                *q-quit-leader-q*
+<leader>q               Native q key: macro recording.
+
+OPTIONS                                         *q-quit-options*
+
+
+If you need to use q to close the last and only window, set this option
+to 1, otherwise set it to 0:
+
+    let g:q_quit_close_when_only_one_window = 1
+
+ABOUT                                           *q-quit-about*
+
+The ideas and original code of q-quit originated from SpaceVim <https://github.com/liuchengxu/space-vim>.
+
+Grab the latest version or report a bug on GitHub:
+
+https://github.com/HustLion/q-quit
+
+vim:tw=78:et:ft=help:norl:
