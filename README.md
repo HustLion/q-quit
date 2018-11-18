@@ -1,5 +1,5 @@
 # q-quit
-q-quit vim plugin.
+q-quit - q to smart quit.
 
 q-quit remapps the q key to a smart close utility, allowing
 the user to quickly close window, quickfix list, etc. The original
@@ -25,5 +25,9 @@ to 1, otherwise set it to 0:
 
 ## TODO
 
-* [] explain window, ft options
-* [] test for nvim, gvim
+* [ ] explain window, ft options
+* [ ] test for nvim, gvim
+
+## Credits
+
+The ideas and original code of q-quit originated from SpaceVim <https://github.com/liuchengxu/space-vim>.
